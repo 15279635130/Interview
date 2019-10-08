@@ -91,7 +91,7 @@ public class TestVolatile {
 
         // 测试是否获取到数据的修改
         while (myData.number == 0) {
-            // 勇于子线程修改数据，需要通过 volatile进行通知其他线程
+            // 用于子线程修改数据，需要通过 volatile进行通知其他线程
         }
 
         System.out.println("main tread is over ...");
